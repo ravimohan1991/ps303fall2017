@@ -10,6 +10,7 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \hypersetup{colorlinks,urlcolor=blue}
+\usepackage{mathtools}
 
 
 \graphicspath{ {../Images/} }
@@ -64,7 +65,7 @@ The mechanical energy of the system is the linear sum of the potential energy an
 \begin{equation}
 \begin{split}
   ME &= KE + PE\\
-&= \frac{1}{2}mv^2 + mgx
+&= \frac{1}{2}mv^2 + \left(\underbrace{mgx}_{\text{Gravity system}}\text{ or }\underbrace{\frac{1}{2}kx^2}_{\text{Spring system}}\right)
 \end{split}
 \end{equation}
 Now the law of the conservation of energy says that the total mechanical energy of the system is conserved in absence of the external force.  Actually this law is a consequence of a very beautiful theorem by \href{https://en.wikipedia.org/wiki/Emmy_Noether}{Emmy Noether} known as \href{https://en.wikipedia.org/wiki/Noether%27s_theorem}{Noether's Theorem}.  I would highly recommend reading the wikipedia page included in the hyperlink. 
